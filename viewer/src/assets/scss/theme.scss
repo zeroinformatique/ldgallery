@@ -23,33 +23,33 @@
 
 // Buefy components
 
-$primary: $palette-000;
+$primary: var(--palette-000); // FIXME
 $text: $primary;
-$text-light: $palette-100;
+$text-light: red;//var(--palette-100); // FIXME
 $text-strong: $primary;
 $input-color: $text;
 $input-placeholder-color: $text-light;
 $input-shadow: none;
 $input-border-color: transparent;
-$input-background-color: $palette-500;
-$input-focus-box-border-color: $palette-200;
+$input-background-color: var(--palette-500);
+$input-focus-box-border-color: var(--palette-200);
 $input-focus-box-shadow-color: transparent;
 $link: $primary;
 $link-visited: $link;
-$link-hover: $palette-100;
-$disabled-color: $palette-400;
+$link-hover: var(--palette-100);
+$disabled-color: var(--palette-400);
 $radius: 0;
-$loading-background: $palette-800;
-$title-color: $palette-200;
+$loading-background: var(--palette-800);
+$title-color: var(--palette-200);
 $title-size: $size-5;
-$subtitle-color: $palette-200;
+$subtitle-color: var(--palette-200);
 $subtitle-size: $size-5;
-$tag-background-color: $palette-800;
-$button-color: $palette-100;
-$button-active-color: $palette-100;
-$button-active-border-color: $palette-500;
-$button-background-color: $palette-700;
-$button-border-color: $palette-500;
+//$tag-background-color: var(--palette-800); // FIXME
+$button-color: var(--palette-100);
+$button-active-color: var(--palette-100);
+$button-active-border-color: var(--palette-500);
+$button-background-color: var(--palette-700);
+$button-border-color: var(--palette-500);
 $button-focus-color: $button-color;
 $button-focus-border-color: $link;
 $button-focus-box-shadow-size: 0;
@@ -57,20 +57,20 @@ $body-line-height: 1.5;
 
 // Custom components
 
-$panel-top-bgcolor: $palette-800;
+$panel-top-bgcolor: var(--palette-800);
 $panel-top-txtcolor: $primary;
-$panel-left-bgcolor: $palette-800;
+$panel-left-bgcolor: var(--palette-800);
 $panel-left-txtcolor: $primary;
-$command-buttons-bgcolor: $palette-700;
-$content-bgcolor: $palette-900;
-$scrollbar-color: $palette-300;
+$command-buttons-bgcolor: var(--palette-700);
+$content-bgcolor: var(--palette-900);
+$scrollbar-color: var(--palette-300);
 $scrollbar-width: 10px;
-$loader-color: $palette-800;
-$input-tag-delete-background-color: $palette-700;
+$loader-color: var(--palette-800);
+$input-tag-delete-background-color: var(--palette-700);
 $breadcrumb-margins: 12px;
 $breadcrumb-overflow-mask-size: $breadcrumb-margins + 60px;
 $thumbnail-other-size: $body-line-height * 7em;
-$proposed-category-bgcolor: $palette-700;
+$proposed-category-bgcolor: var(--palette-700);
 
 // Layout
 

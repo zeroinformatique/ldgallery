@@ -97,8 +97,8 @@ export default class LdBreadcrumb extends Vue {
   height: 100%;
   background: linear-gradient(
     to right,
-    rgba($panel-top-bgcolor, 1) $breadcrumb-margins,
-    rgba($panel-top-bgcolor, 0) $breadcrumb-overflow-mask-size
+    rgba(var($panel-top-bgcolor), 1) $breadcrumb-margins,
+    rgba(var($panel-top-bgcolor), 0) $breadcrumb-overflow-mask-size
   );
   pointer-events: none;
 }
